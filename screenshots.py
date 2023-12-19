@@ -16,15 +16,14 @@ def generate_random_string(length=7):
     return ''.join(random.choice(letters) for _ in range(length))
 
 
-def get_screenshots(amount: int):
+def get_screenshots():
 
     # Load Config
     with open('config.json', 'r') as file:
         config = json.load(file)
 
     # Generate Images
-    for f in range(amount):
-
+    while True:
         try:
 
             # Setup Session

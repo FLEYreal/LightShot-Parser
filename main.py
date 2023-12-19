@@ -1,5 +1,8 @@
-# Libs
+# Basics
 import json
+
+# Libs
+import multiprocessing
 from colorama import init
 
 # Files
@@ -16,7 +19,9 @@ def main():
         config = json.load(file)
 
     # Get screenshots
-    get_screenshots(config['attempts_amount'])
+    for f in range(1, config['processes_amount']):
+        parsing = multiprocessing.Process(target=get_screenshots())
+        parsing.start()
 
 
 if(__name__ == '__main__'):
