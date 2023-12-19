@@ -1,5 +1,3 @@
-# '//st.prntscr.com/2023/07/24/0635/img/0_173a7b_211be8ff.png'
-
 # Basics
 import os
 import requests

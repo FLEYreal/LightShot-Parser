@@ -1,11 +1,3 @@
-# 'https://prnt.sc/12fgtea'
-
-# 1. Генератор ссылок
-# 2. Парсинг сайта
-# 3. Сохранение скриншота
-# 
-# 4. API ChatGPT
-
 # Libs
 import json
 from colorama import init
