@@ -1,9 +1,12 @@
 ﻿# LightShot-Parser
-LightShot Parser that gets screenshots from lightshot!
+LightShot Parser is parsing screenshots from lightshot available to all users!
+If you want to use parser youtself, you need to:
 
-0. Make sure to have Python installed
+1. Download this repository with git or download button and unzip (if it's zipped).
+
+2. Make sure to have Python installed or install it on official website.
    
-2. Enter a folder of the script and type:
+3. Run cmd / powershell / terminal and enter a folder of the script with command "cd <Folder Path>" and then type commands to install dependencies and run the script:
 ```bash
 pip install -r requirements.txt
 python main.py
